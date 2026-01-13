@@ -185,6 +185,7 @@ body {}
 #wrap .swiper-wrapper .profile .container .intro_info_wrap .right_bottom_wrap #license_wrap .license li p{color: #0D1442; margin-top: 10px;}
 
 /* 웹 프로젝트 */
+/* =================================================================== */
 /* 탬버린즈 */
 #wrap .swiper-wrapper .project1 {
     width: 100%;
@@ -295,6 +296,12 @@ body {}
     margin-bottom: 15px;
 
 }
+#wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents h3 span {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
 #wrap .swiper-wrapper .project1 .container .bottom_wrap .project_contents p{
     font-size: 1rem;
     color: #fff;
@@ -394,7 +401,7 @@ body {}
     color: #fff;
     line-height: 1.5;
 }
-
+/* =================================================================== */
 /* 라코스테 */
 #wrap .swiper-wrapper .project3{
     width: 100%;
@@ -487,3 +494,96 @@ body {}
     line-height: 1.5;
 }
 
+
+/* =================================================================== */
+/* 로얄캐닌 */
+#wrap .swiper-wrapper .project4{
+    width: 100%;
+    background-image: url(../images/web/bg/bg_04.png);
+}
+#wrap .swiper-wrapper .project4 .container {
+    padding: 0 140px;
+    margin: 0 auto;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap{}
+#wrap .swiper-wrapper .project4 .container .top_wrap #project_title_wrap{
+    padding-bottom: 30px;
+    display: flex;    
+    flex-flow: row nowrap;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap #project_title_wrap img{}
+#wrap .swiper-wrapper .project4 .container .top_wrap #project_title_wrap h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 61px;
+    margin-left: 23px;
+    color: #fff;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap .project_info{}
+#wrap .swiper-wrapper .project4 .container .top_wrap .project_info h2{ 
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap .project_info p{
+    color: #fff;
+    margin-top: 15px;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap .project_info p em{color: #fff;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap #show_btn_wrap{/* 버튼 묶음 */
+    /* background-color: yellow; */
+    padding: 20px 0;
+    /* display: flex; */
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap #show_btn_wrap a{
+    width: 180px; height: 0px;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap #show_btn_wrap a button{
+    background-color: #FF5B1C;
+    color: #fff;
+    width: 150px; height: 36px;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap #show_btn_wrap a button:hover {
+    color:#fff;
+    box-shadow: 0 0 10px 2px rgba(255,255,255,0.5);
+}
+#wrap .swiper-wrapper .project4 .container .top_wrap #show_btn_wrap a #figma{ 
+    background-color: #000;
+    color:#fff;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap{/*로얄캐닌 내용 큰묶음  */
+    padding-top: 180px;
+    display: flex;  
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap .qr {/* 로얄캐닌 깃허브 큐알코드 */
+    margin-top: 110px;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap .qr p{
+    font-size: 0.875rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap .qr img{ 
+    width: 70px; height: 70px;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap .project_contents{
+    width: 570px;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap .project_contents h3{
+    font-size: 1.563rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#wrap .swiper-wrapper .project4 .container .bottom_wrap .project_contents p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.5;
+}
