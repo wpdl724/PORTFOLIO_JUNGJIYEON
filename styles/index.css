@@ -744,7 +744,7 @@ body {}
 }
 
 #wrap .swiper-wrapper .project3 .container .bottom_wrap .project_contents {
-    width: 570px;
+    width: 580px;
 }
 
 #wrap .swiper-wrapper .project3 .container .bottom_wrap .project_contents h3 {
@@ -842,7 +842,7 @@ body {}
 
 #wrap .swiper-wrapper .project4 .container .bottom_wrap {
     /*로얄캐닌 내용 큰묶음  */
-    padding-top: 180px;
+    padding-top: 210px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -866,7 +866,7 @@ body {}
 }
 
 #wrap .swiper-wrapper .project4 .container .bottom_wrap .project_contents {
-    width: 570px;
+    width: 560px;
 }
 
 #wrap .swiper-wrapper .project4 .container .bottom_wrap .project_contents h3 {
